@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
 @theme {
+  --color-*: initial;
+  --color-white: #ffffff;
+  --color-slate-950: oklch(12.9% 0.042 264.695);
+  --color-slate-900: oklch(20.8% 0.042 265.755);
+
   --font-sans: "Cairo", sans-serif;
 }
