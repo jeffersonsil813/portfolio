@@ -3,11 +3,13 @@
 @theme {
   --color-*: initial;
   
-  --color-white: #ffffff;
-  
   --color-zinc-950: oklch(14.1% 0.005 285.823);
   --color-zinc-200: oklch(92% 0.004 286.32);
   --color-zinc-50: oklch(98.5% 0 0);
+
+  --color-indigo-900: oklch(35.9% 0.144 278.697);
+
+  --color-purple-50: oklch(97.7% 0.014 308.299);
 
   --font-sans: "Cairo", sans-serif;
 }
