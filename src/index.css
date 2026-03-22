@@ -2,7 +2,7 @@
 
 @theme {
   --color-*: initial;
-  
+
   --color-zinc-950: oklch(14.1% 0.005 285.823);
   --color-zinc-200: oklch(92% 0.004 286.32);
   --color-zinc-50: oklch(98.5% 0 0);
@@ -12,4 +12,8 @@
   --color-purple-50: oklch(97.7% 0.014 308.299);
 
   --font-sans: "Cairo", sans-serif;
+}
+
+section[id] {
+  scroll-margin-top: 80px;
 }

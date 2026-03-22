@@ -1,20 +1,10 @@
-import { useEffect, useState } from "react";
+import NavList from "./navList";
 
 const Navbar = () => {
-  const [scrolled, setScrolled] = useState(false);
-
-  useEffect(() => {
-    const handleScroll = () => setScrolled(window.scrollY > 20);
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
-
   return (
-    <div
-      className={`text-white h-16 w-[95%] sticky rounded-md p-6 top-5 mx-auto transition duration-300 ${
-        scrolled ? "backdrop-blur-md bg-zinc-950/10" : "bg-transparent"
-      }`}
-    />
+    <div className="h-16 w-7xl max-w-[95%] rounded-full inset-x-0 mx-auto my-5 fixed p-6 z-50 shadow-md bg-zinc-50">
+      <NavList />
+    </div>
   );
 };
 
