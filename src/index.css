@@ -3,8 +3,10 @@
 @theme {
   --color-*: initial;
   --color-white: #ffffff;
-  --color-slate-950: oklch(12.9% 0.042 264.695);
-  --color-slate-900: oklch(20.8% 0.042 265.755);
+  --color-zinc-950: oklch(14.1% 0.005 285.823);
+  --color-zinc-900: oklch(21% 0.006 285.885);
+  --color-zinc-700: oklch(37% 0.013 285.805);
+  --color-zinc-600: oklch(44.2% 0.017 285.786);
 
   --font-sans: "Cairo", sans-serif;
 }
