@@ -6,7 +6,7 @@ export const buttonVariants = cva(
   {
     variants: {
       variant: {
-        primary: "bg-zinc-950 hover:bg-white",
+        primary: "bg-zinc-950 hover:bg-zinc-50",
       },
       size: {
         md: "h-10 py-4 px-5",
@@ -22,7 +22,7 @@ export const buttonVariants = cva(
 export const buttonTextVariants = cva("transition duration-300", {
   variants: {
     variant: {
-      primary: "text-white group-hover:text-zinc-950",
+      primary: "text-zinc-50 group-hover:text-zinc-950",
     },
   },
   defaultVariants: {
