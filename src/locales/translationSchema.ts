@@ -2,6 +2,14 @@ const base = {
   hero: {
     title: "",
     subtitle: "",
+    navbar: {
+      me: "",
+      experience: "",
+      projects: "",
+      skills: "",
+      contact: "",
+      translation: "",
+    }
   },
 };
 
