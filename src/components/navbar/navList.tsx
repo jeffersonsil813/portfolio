@@ -1,5 +1,6 @@
 import { useTypedTranslation } from "../../hooks/useTypedTranslation";
 import Text from "../text";
+import ToggleTranslationButton from "../toggleTranslationButton";
 
 const NavList = () => {
   const { t } = useTypedTranslation();
@@ -18,17 +19,22 @@ const NavList = () => {
   };
 
   return (
-    <div className="h-full flex justify-center items-center gap-12">
-      {links.map(({ id, text }) => (
-        <a key={id} href={`#${id}`} onClick={(e) => handleScroll(e, id)}>
-          <Text
-            variant="body-lg-bold"
-            className="transition duration-300 border-b-2 border-b-transparent hover:border-b-indigo-900 hover:border-b-2"
-          >
-            {text}
-          </Text>
-        </a>
-      ))}
+    <div className="h-full flex justify-around items-center gap-5">
+      <div className="flex justify-center items-center gap-12 flex-2">
+        {links.map(({ id, text }) => (
+          <a key={id} href={`#${id}`} onClick={(e) => handleScroll(e, id)}>
+            <Text
+              variant="body-lg-bold"
+              className="transition duration-300 border-b-2 border-b-transparent hover:border-b-indigo-900 hover:border-b-2"
+            >
+              {text}
+            </Text>
+          </a>
+        ))}
+      </div>
+      <div className="flex items-center justify-center flex-1">
+        <ToggleTranslationButton />
+      </div>
     </div>
   );
 };
