@@ -1,15 +1,15 @@
 const base = {
-  hero: {
+  navbar: {
+    me: "",
+    experience: "",
+    projects: "",
+    skills: "",
+    contact: "",
+    translation: "",
+  },
+  aboutMe: {
     title: "",
     subtitle: "",
-    navbar: {
-      me: "",
-      experience: "",
-      projects: "",
-      skills: "",
-      contact: "",
-      translation: "",
-    }
   },
 };
 
