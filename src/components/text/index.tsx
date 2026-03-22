@@ -1,7 +1,7 @@
 import { cva, type VariantProps } from "class-variance-authority";
 import React, { type JSX } from "react";
 
-export const textVariants = cva("font-sans text-white", {
+export const textVariants = cva("font-sans", {
   variants: {
     variant: {
       "body-sm-bold": "text-sm leading-5 font-semibold",
