@@ -1,10 +1,9 @@
-import { useTypedTranslation } from "./hooks/useTypedTranslation";
+import Navbar from "./components/navbar";
 import "./i18n/i18n";
 
 const App = () => {
-  const { t } = useTypedTranslation();
 
-  return <h1>{t("hero.subtitle")}</h1>;
+  return <Navbar />;
 };
 
 export default App;
