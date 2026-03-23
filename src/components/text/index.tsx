@@ -4,11 +4,12 @@ import React, { type JSX } from "react";
 export const textVariants = cva("font-sans text-indigo-900", {
   variants: {
     variant: {
-      "body-sm-bold": "text-sm leading-5 font-semibold",
       "body-md": "text-base leading-6 font-normal",
       "body-md-bold": "text-base leading-6 font-semibold",
+      "body-lg": "text-lg leading-6 font-normal",
       "body-lg-bold": "text-lg leading-6 font-semibold",
-      "body-xl": "text-9xl leading-10",
+      "body-7xl": "text-7xl tracking-[10px]",
+      "body-xl": "text-xl leading-10",
     },
   },
   defaultVariants: {
